@@ -21,6 +21,7 @@ def is_valid_email_library(email):
     except EmailNotValidError:
         return False
 
+
 # Exemplo de uso
 email_valido = "exemplo@dominio.com"
 email_invalido = "invalido.com"
